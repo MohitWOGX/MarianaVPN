@@ -152,7 +152,20 @@ A sample `.ovpn` file is included in the project:
 
 > For security reasons, actual certificates and keys are not included.
 
+\---
+## 🔧 VPN Configuration Setup
 
+The VPN configuration (`.ovpn` file) was generated using an OpenVPN server hosted on AWS.
+
+General steps followed:
+
+1. Deployed an OpenVPN server on AWS EC2  
+2. Configured server authentication and networking  
+3. Generated client configuration files (`.ovpn`)  
+4. Integrated the configuration with the mobile application  
+
+> Note: For security reasons, actual configuration files and credentials are not included.  
+> A template file is provided instead.
 
 \---
 
@@ -305,5 +318,3 @@ This project is for educational purposes only and is not intended for production
 \- Desktop (PC) client for VPN connection  
 \- Cross-platform support (Windows / Linux)  
 \- Improved configuration management  
-
-
