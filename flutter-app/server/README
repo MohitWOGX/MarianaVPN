@@ -1,4 +1,4 @@
-## Server Setup (AWS EC2)
+## 𝗦𝗲𝗿𝘃𝗲𝗿 𝗦𝗲𝘁𝘂𝗽 (𝗔𝗪𝗦 𝗘𝗖𝟮)
 
 This folder contains basic steps and configuration used to set up the VPN backend.
 
@@ -21,7 +21,9 @@ ssh ubuntu@YOUR_SERVER_IP
 3. Run setup script:
 chmod +x setup.sh
 ./setup.sh
+---
 
+⚙️ 𝐑𝐞𝐟𝐞𝐫 𝐭𝐨 𝐎𝐩𝐞𝐧𝐕𝐏𝐍 𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐨𝐫 𝐀𝐖𝐒 𝐌𝐚𝐫𝐤𝐞𝐭𝐩𝐥𝐚𝐜𝐞 𝐬𝐞𝐭𝐮𝐩 𝐟𝐨𝐫 𝐝𝐞𝐭𝐚𝐢𝐥𝐞𝐝 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧 𝐬𝐭𝐞𝐩𝐬.
 
 ---
 
