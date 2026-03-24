@@ -1,0 +1,59 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace "com.mohitw.marianavpn"
+    compileSdk 36
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions { jvmTarget = "1.8" }
+
+    defaultConfig {
+        applicationId "com.mohitw.marianavpn"
+        minSdkVersion flutter.minSdkVersion
+        targetSdk 33   // DO NOT change — 33 is required for VPN to work
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true   // removes unused resources — safe, smaller APK
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+
+    lintOptions {
+        disable "InvalidPackage"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    packagingOptions {
+        jniLibs { useLegacyPackaging = true }
+        resources {
+            excludes += [
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE',
+                'META-INF/NOTICE',
+                '**/*.kotlin_module',
+            ]
+        }
+    }
+}
+
+flutter { source "../.." }

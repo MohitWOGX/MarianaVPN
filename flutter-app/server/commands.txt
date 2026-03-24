@@ -1,0 +1,9 @@
+# Commands used during setup
+
+sudo apt update
+sudo apt install openvpn easy-rsa -y
+sudo systemctl start openvpn
+sudo systemctl enable openvpn
+
+# iptables rule
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
