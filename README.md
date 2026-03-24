@@ -42,18 +42,31 @@ This helped in understanding how traffic routing, encryption, and network config
 
 MarianaVPN/
 │
+
 ├── flutter-app/ # Mobile application
+
 │ └── apk/ # Demo APK
+
 │
+
 ├── server/ # Backend setup and notes
+
 │ ├── setup.sh
+
 │ ├── README.md
+
 │ └── notes.md
+
 │
+
 ├── docs/ # Screenshots and architecture diagram
+
 │
+
 ├── .gitignore
+
 ├── LICENSE
+
 └── README.md
 
 ---
