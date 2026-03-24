@@ -262,9 +262,11 @@ Detailed steps are available inside the `server/` folder.
 
 
 
-Screenshots and architecture diagram are available in the `docs/` folder.
-\- docs/screenshots/connection.jpg
+## 🏗️ System Architecture
 
+![MarianaVPN Architecture](docs/architecture.png)
+
+The system follows a client-server model:
 
 
 \---
