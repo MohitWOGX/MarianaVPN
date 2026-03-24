@@ -262,11 +262,11 @@ Detailed steps are available inside the `server/` folder.
 
 
 
-## 🏗️ System Architecture
+ 🏗️ System Architecture
 
-![MarianaVPN Architecture](docs/arch.png)
+![MarianaVPN Architecture](flutter-app/docs/arch.png)
 
-The system follows a client-server model:
+The system follows a client-server model.
 
 
 \---
