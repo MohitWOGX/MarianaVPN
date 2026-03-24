@@ -152,7 +152,7 @@ A sample `.ovpn` file is included in the project:
 
 > For security reasons, actual certificates and keys are not included.
 
-\---
+\
 ## 🔧 VPN Configuration Setup
 
 The VPN configuration (`.ovpn` file) was generated using an OpenVPN server hosted on AWS.
@@ -168,7 +168,7 @@ General steps followed:
 > A template file is provided instead.
 
 
-\---
+\
 \## ⚙️ Server Setup (Summary)
 
 
