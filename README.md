@@ -85,18 +85,31 @@ This helped in understanding how traffic routing, encryption, and network config
 MarianaVPN/
 
 │
+
 ├── flutter-app/ # Mobile application
+
 │ └── apk/ # Demo APK
+
 │
+
 ├── server/ # Backend setup and notes
+
 │ ├── setup.sh
+
 │ ├── README.md
+
 │ └── notes.md
+
 │
+
 ├── docs/ # Screenshots and architecture diagram
+
 │
+
 ├── .gitignore
+
 ├── LICENSE
+
 └── README.md\\
 
 
@@ -290,3 +303,5 @@ This project is for educational purposes only and is not intended for production
 \- Desktop (PC) client for VPN connection  
 \- Cross-platform support (Windows / Linux)  
 \- Improved configuration management  
+
+
