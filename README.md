@@ -167,10 +167,8 @@ General steps followed:
 > Note: For security reasons, actual configuration files and credentials are not included.  
 > A template file is provided instead.
 
+
 \---
-
-
-
 \## ⚙️ Server Setup (Summary)
 
 
@@ -196,9 +194,6 @@ Detailed steps are available inside the `server/` folder.
 
 
 \---
-
-
-
 \## ⚠️ Challenges Faced
 
 
