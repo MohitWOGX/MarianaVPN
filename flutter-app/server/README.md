@@ -1,0 +1,51 @@
+# Server Setup (AWS EC2)
+
+This folder contains the basic steps and configuration used to set up the VPN backend.
+
+---
+
+## 🖥️ Requirements
+
+- AWS EC2 instance (Ubuntu recommended)  
+- Open ports: 1194 (UDP), 443 (TCP)  
+- SSH access  
+
+---
+
+## ⚙️ Setup Steps
+
+1. Launch an EC2 instance  
+
+2. Connect via SSH:
+
+```bash
+ssh ubuntu@YOUR_SERVER_IP
+```
+
+3. Run the setup script:
+
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+---
+
+## 📚 Reference
+
+Refer to OpenVPN official documentation or AWS Marketplace setup for detailed installation steps.
+
+---
+
+## 🔐 Networking
+
+- Enabled IP forwarding  
+- Configured NAT using iptables  
+- Adjusted AWS security groups to allow VPN traffic  
+
+---
+
+## ⚠️ Notes
+
+- This is a basic setup for learning purposes  
+- Additional security hardening is required for production use  
