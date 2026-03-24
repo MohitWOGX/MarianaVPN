@@ -41,6 +41,7 @@ This helped in understanding how traffic routing, encryption, and network config
 ## 📁 Project Structure
 
 MarianaVPN/
+
 │
 
 ├── flutter-app/ # Mobile application
