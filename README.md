@@ -264,7 +264,7 @@ Detailed steps are available inside the `server/` folder.
 
 ## 🏗️ System Architecture
 
-![MarianaVPN Architecture](docs/architecture.png)
+![MarianaVPN Architecture](docs/arch.png)
 
 The system follows a client-server model:
 
