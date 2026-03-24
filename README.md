@@ -74,9 +74,10 @@ MarianaVPN/
 
 ## 📱 APK
 
-A demo APK is included in the repository.
+A demo APK is included in the repository. -> (Inside APK folder)
 
 > Note: The app may not connect if the backend server is inactive (AWS free tier limitation).
+> Only Mumbai Server is Open for Now.
 
 ---
 
