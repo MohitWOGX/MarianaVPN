@@ -6,6 +6,18 @@ The project includes a Flutter-based mobile application and a self-hosted VPN se
 
 ---
 
+## ⚠️ Disclaimer
+
+This project is developed for educational and learning purposes only.
+
+It demonstrates how VPN systems, networking, and client-server communication work in practice.  
+This is not a production-ready VPN service.
+
+The developer is not responsible for any misuse of this application. Users are expected to use it responsibly and comply with all applicable laws and regulations.
+
+No real credentials or sensitive configuration are included in this repository.
+
+---
 ## 🚀 Overview
 
 MarianaVPN is a learning-focused implementation of a VPN system.  
